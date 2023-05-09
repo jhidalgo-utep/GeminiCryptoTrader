@@ -7,8 +7,8 @@
     
 ### Desctription : The Crypto Application [OPEN SOURCE]
 - [x] Crypto Gemini marketplace app that uses the [Gemini API](https://docs.gemini.com/)
-- [x] QT Python Framework (GUI)
-- [x] [PySide2](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/) and [Pyside2](https://www.pythonguis.com/tutorials/pyside-creating-your-first-window/) [wiki](https://en.wikipedia.org/wiki/PySide)
+- [x] QT Framework - for windows and python [wiki](https://en.wikipedia.org/wiki/Qt_(software))
+- [x] PySide2 [doc1](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/) and [doc2](https://www.pythonguis.com/tutorials/pyside-creating-your-first-window/) Checkout here [wiki](https://en.wikipedia.org/wiki/PySide)
 - [x] Written in the lastest python3.
 - [x] Custom Application
 - [ ] today's lunch
