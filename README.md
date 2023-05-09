@@ -1,4 +1,4 @@
-# The Gemini Crypto Trader 
+# Gemini Crypto Trader App
 
 ### How to start program
     1. Open your Terminal.
