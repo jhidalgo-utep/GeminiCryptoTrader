@@ -1,5 +1,5 @@
-# Gemini Crypto Trader in pthon3
-## [OPEN SOURCE]
+# Gemini Crypto Trader w/ python3 [OPEN SOURCE]
+## 
 
 
 
