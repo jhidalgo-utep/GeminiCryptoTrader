@@ -1,0 +1,2 @@
+# GeminiCryptoTrader
+newer one
