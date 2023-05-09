@@ -1,5 +1,7 @@
-# Gemini Crypto Trader w/ python3 [OPEN SOURCE]
-## 
+# Gemini Crypto Trader Application w/ python3 [OPEN SOURCE]
+
+## Instructions:
+## open terminal. navigate 'cd' to main.py file. type 'python main.py' 
 
 
 
