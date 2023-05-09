@@ -1,11 +1,11 @@
 # Gemini Crypto Trader App
 
-### How to start program
+## How to start program
     1. Open your Terminal.
     2. Change your current directory to the src folder that contains the "main.py" file
     3. Type "python main.py" in Terminal to run program
     
-## Desctription : The Crypto Application [OPEN SOURCE]
+### Desctription : The Crypto Application [OPEN SOURCE]
 - [x] Crypto Gemini that uses the GEMINI API. 
 - [x] PyQt5 for the GUI frame-work. 
 - [x] Written in the lastest python3.
