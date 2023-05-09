@@ -5,8 +5,10 @@
     2. Change your current directory to the src folder that contains the "main.py" file
     3. Type "python main.py" in Terminal to run program
     
-## Desctription
-A Custom Crypto Trader Application for Gemini that uses the GEMINI API. Use's PyQt5 for the GUI frame-work. Written in the lastest python3.
+## Desctription : The Crypto Application
+[x] Custom Crypto Gemini that uses the GEMINI API. 
+[x] PyQt5 for the GUI frame-work. 
+[x] Written in the lastest python3.
 
 ## License
 
