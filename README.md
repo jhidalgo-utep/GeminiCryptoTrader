@@ -1,5 +1,5 @@
-# GeminiCryptoTrader
-newer one
+# OPEN SOURCE Gemini Crypto Trader
+
 
 
 ## License
