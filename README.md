@@ -1,4 +1,4 @@
-# Gemini Crypto Trader [OPEN SOURCE] 
+# Gemini Crypto Trader - [OPEN SOURCE] 
 
 
 
