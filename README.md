@@ -11,6 +11,11 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
+## Resources:
+- [x] Python 3.7.9 
+- [x] [Tkinter](http://tkdocs.com/tutorial/install.html) (GUI) - Python's standard GUI [library](https://docs.gemini.com/)
+- [x] [Gemini API](https://docs.python.org/3/library/tk.html) for the Crypto Gemini marketplace website
+
 #
 #
 #
@@ -18,11 +23,6 @@
 #### Installation:
 - [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
 - [x] Installed Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
-
-#### Resources:
-- [x] Python 3.7.9 
-- [x] [Tkinter](http://tkdocs.com/tutorial/install.html) (GUI) - Python's standard GUI [library](https://docs.gemini.com/)
-- [x] [Gemini API](https://docs.python.org/3/library/tk.html) for the Crypto Gemini marketplace website
 
 
 ## Images:
