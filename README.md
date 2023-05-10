@@ -37,8 +37,6 @@
 - [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
 - [x] Installed Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
 
-### Made by: JH Dev
-<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:900px ; height:310px">
 
 ## License
     Copyright [2023] [Joaquin Hidalgo]
@@ -54,3 +52,8 @@
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+  
+  
+### Made by: JH Dev
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:900px ; height:310px">
+
