@@ -10,15 +10,17 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
+This Application is a python program using a GUI for user interaction. It uses python3 and tkinter, a package that is a standard gui library of python
+
 #### Resources:
 - [x] Python 3.7.9 
-- [x] Tkinter (GUI) Python package [framework](http://tkdocs.com/tutorial/install.html)
-- [x] Crypto Gemini marketplace that uses the [Gemini API](https://docs.gemini.com/)
+- [x] Tkinter (GUI) - Python's standard GUI [library](http://tkdocs.com/tutorial/install.html)
+- [x] Crypto Gemini marketplace website that uses the [Gemini API](https://docs.gemini.com/)
 
 
 #### Installion:
 - [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
-- [x] Downloaded [Tkinter](https://docs.python.org/3/library/tk.html) package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
+- [x] Installed [Tkinter](https://docs.python.org/3/library/tk.html) package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
 
 
 ## Open-Source Code: 
