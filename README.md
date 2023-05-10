@@ -14,10 +14,11 @@
 - [ ] Today's breakfast
 
 ### Python3
-![py3_logo](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/20995668-cdb3-4104-aab0-54c43e12a718 = 250x250)
 
+![py3_logo]()
 
-![Python3](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/9f93d643-677a-49d9-bd1e-0821ffb1b1ff)
+<img src="[https://github.com/favicon.ico](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120)" width="48">
+
 
 ### Tkinter (Tk)
 
