@@ -1,5 +1,7 @@
 # Gemini Crypto Trader App
 
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">
+
 ## How to start/run program
     1. Open your Terminal.
     2. Change your current directory to the 'CryptoAppProject/src' folder that contains the "main.py" file
@@ -31,7 +33,7 @@ Gemini API
 <p>Python's integrated Tkinter GUI</p>
 <p float="left">
     <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/ded6633d-01ab-4913-812b-e8a87f8a2cb7" style=" width:200px ; height:180px">
-    <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">  
+      
 </p>
 <p> </p>
 
