@@ -6,9 +6,10 @@
     3. Type "python main.py" in Terminal to run program
     
 ### Desctription : The Crypto Application [OPEN SOURCE]
-- [x] Crypto Gemini that uses the GEMINI API. 
-- [x] PyQt5 for the GUI frame-work. 
-- [x] Written in the lastest python3.
+- [x] Crypto Gemini marketplace app that uses the [Gemini API](https://docs.gemini.com/)
+- [x] QT Framework - for windows and python [wiki](https://en.wikipedia.org/wiki/Qt_(software))
+- [x] PySide2: [doc1](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/) & [doc2](https://www.pythonguis.com/tutorials/pyside-creating-your-first-window/) for python [wiki](https://en.wikipedia.org/wiki/PySide)
+- [x] Written in the lastest python3
 - [x] Custom Application
 - [ ] today's lunch
 
