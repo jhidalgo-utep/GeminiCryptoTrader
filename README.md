@@ -10,7 +10,7 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
-This Application is a python program using a GUI for user interaction. It uses python3 and tkinter, a package that is a standard gui library of python
+This Application is a python program using a GUI for user interaction. It uses python3 and tkinter, a package that is a standard gui library of python.
 
 #### Resources:
 - [x] Python 3.7.9 
