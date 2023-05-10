@@ -22,7 +22,7 @@
 ### Gemini
 
 ### Made by : 
-![JH Development: ](https://github.com/jhidalgo-utep/GeminiCryptoTrader/Github_Images/JH_dev.png)
+![JH Development: ](Github_Images/JH_dev.png)
 
 
 #### Installation needed
