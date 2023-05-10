@@ -20,12 +20,11 @@
 
 ### Tkinter (Tk) GUI
 <p float="left">
-    <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/ded6633d-01ab-4913-812b-e8a87f8a2cb7" style=" width:200px ; height:180px">
-    <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">
-  
+    <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/ded6633d-01ab-4913-812b-e8a87f8a2cb7" style=" width:200px ; height:180px" style="margin: 0px 0px 0px 80px;">
+    <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">  
 </p>
 
-dsfgdfg
+
 ### Gemini API
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/3be09dc2-6f74-45bc-b163-b93f179ad909" style=" width:400px ; height:150px">
 
