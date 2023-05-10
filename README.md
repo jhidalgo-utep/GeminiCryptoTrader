@@ -25,7 +25,7 @@
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/3be09dc2-6f74-45bc-b163-b93f179ad909" style=" width:300px ; height:150px">
      
 
-### Installation:
+## Installation:
 - [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
 - [x] Installed Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
 
