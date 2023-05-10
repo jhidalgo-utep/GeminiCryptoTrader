@@ -24,10 +24,10 @@
 
 
 ## Image(s): 
-Python3 SDK
+Python3 SDK\n
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:300px ; height:150px">
 
-Python's integrated Tkinter GUI
+Python's integrated Tkinter GUI\n
 <p float="left">
     <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/ded6633d-01ab-4913-812b-e8a87f8a2cb7" style=" width:200px ; height:180px">
     <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">  
