@@ -19,6 +19,9 @@
 - [x] Python 3.7.9 
 - [x] [Tkinter](http://tkdocs.com/tutorial/install.html) (GUI) - Python's standard GUI [library](https://docs.gemini.com/)
 - [x] [Gemini API](https://docs.python.org/3/library/tk.html) for the Crypto Gemini marketplace website
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/ded6633d-01ab-4913-812b-e8a87f8a2cb7" style=" width:200px ; height:180px">
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/3be09dc2-6f74-45bc-b163-b93f179ad909" style=" width:400px ; height:150px">
+     
 
 #
 #
@@ -27,17 +30,8 @@
 - [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
 - [x] Installed Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
 
-Gemini API
-<p> </p>
-<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/3be09dc2-6f74-45bc-b163-b93f179ad909" style=" width:400px ; height:150px">
-<p></p>
 
-<p>Python's integrated Tkinter GUI</p>
-<p float="left">
-    <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/ded6633d-01ab-4913-812b-e8a87f8a2cb7" style=" width:200px ; height:180px">
-      
-</p>
-<p> </p>
+
 
 <p>Python3 SDK</p>
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:300px ; height:150px">
