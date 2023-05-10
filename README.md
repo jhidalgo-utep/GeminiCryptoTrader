@@ -15,7 +15,7 @@ This Application is a python program using a GUI for user interaction. It uses p
 #### Resources:
 - [x] Python 3.7.9 
 - [x] [Tkinter](http://tkdocs.com/tutorial/install.html) (GUI) - Python's standard GUI [library](https://docs.gemini.com/)
-- [x] Crypto Gemini marketplace website that uses the [Gemini API](https://docs.python.org/3/library/tk.html)
+- [x] [Gemini API](https://docs.python.org/3/library/tk.html) for the Crypto Gemini marketplace website
 
 
 #### Installion:
