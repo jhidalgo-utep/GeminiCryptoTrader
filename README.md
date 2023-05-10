@@ -13,8 +13,25 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
-## License
+### Python3
 
+### Tkinter (Tk)
+
+### Python3
+
+### Gemini
+
+### Made by : 
+![JH Development: ](https://github.com/jhidalgo-utep/GeminiCryptoTrader/Github_Images/JH dev img.jpg?raw=true)
+
+
+#### Installation needed
++ Downloaded [Python3](https://www.python.org/downloads/)
++ 
+
+
+
+## License
     Copyright [2023] [Joaquin Hidalgo]
 
     Licensed under the Apache License, Version 2.0 (the "License");
