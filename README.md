@@ -14,13 +14,13 @@ This Application is a python program using a GUI for user interaction. It uses p
 
 #### Resources:
 - [x] Python 3.7.9 
-- [x] Tkinter (GUI) - Python's standard GUI [library](http://tkdocs.com/tutorial/install.html)
+- [x] [Tkinter](https://docs.python.org/3/library/tk.html) (GUI) - Python's standard GUI [library](http://tkdocs.com/tutorial/install.html)
 - [x] Crypto Gemini marketplace website that uses the [Gemini API](https://docs.gemini.com/)
 
 
 #### Installion:
 - [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
-- [x] Installed [Tkinter](https://docs.python.org/3/library/tk.html) package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
+- [x] Installed Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
 
 
 ## Open-Source Code: 
