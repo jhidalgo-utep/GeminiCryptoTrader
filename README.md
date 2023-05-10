@@ -36,6 +36,7 @@
 </p>
 
 Gemini API
+<p> </p>
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/3be09dc2-6f74-45bc-b163-b93f179ad909" style=" width:400px ; height:150px">
 
 
