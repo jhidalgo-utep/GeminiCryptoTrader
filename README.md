@@ -41,6 +41,10 @@ Gemini API
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:300px ; height:150px">
 <p> </p>
 
+<p></p>
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:700px ; height:200px">
+
+
 
 
 # License
@@ -58,5 +62,4 @@ Gemini API
     See the License for the specific language governing permissions and
     limitations under the License.
   
-<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:700px ; height:200px">
 
