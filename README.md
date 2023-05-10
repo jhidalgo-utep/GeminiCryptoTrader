@@ -6,14 +6,17 @@
     3. Type "python main.py" in Terminal to run program
     
 ### Desctription : The Crypto Application [OPEN SOURCE]
-- [x] Written in Python 3.7.9 
-- [x] Tkinter (GUI) [framework](http://tkdocs.com/tutorial/install.html)
-- [x] Crypto Gemini marketplace that uses the [Gemini API](https://docs.gemini.com/)
 - [x] Windows, OS X and Linux Program
 - [x] Custom Application
 - [ ] Today's breakfast
 
-### Installion:
+#### Packages:
+- [x] Python 3.7.9 
+- [x] Tkinter (GUI) Python package [framework](http://tkdocs.com/tutorial/install.html)
+- [x] Crypto Gemini marketplace that uses the [Gemini API](https://docs.gemini.com/)
+
+
+#### Installion:
 - [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
 - [x] Downloaded [Tkinter](https://docs.python.org/3/library/tk.html) package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
 
