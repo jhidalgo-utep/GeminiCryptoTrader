@@ -13,7 +13,10 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
-### ![Python3](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/9f93d643-677a-49d9-bd1e-0821ffb1b1ff)
+### ![py3_logo](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/20995668-cdb3-4104-aab0-54c43e12a718)
+
+
+![Python3](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/9f93d643-677a-49d9-bd1e-0821ffb1b1ff)
 
 ### Tkinter (Tk)
 
