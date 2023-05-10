@@ -17,7 +17,7 @@
 
 ![py3_logo]()
 
-<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:900px ; height:350px">
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:70px ; height:300px">
 
 
 ### Tkinter (Tk)
