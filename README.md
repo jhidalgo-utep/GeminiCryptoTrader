@@ -23,7 +23,7 @@
 
 
 
-## Image(s): 
+## Images:
 Gemini API
 <p> </p>
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/3be09dc2-6f74-45bc-b163-b93f179ad909" style=" width:400px ; height:150px">
@@ -41,7 +41,9 @@ Gemini API
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:300px ; height:150px">
 <p> </p>
 
-<p></p>
+
+#
+<p>Developed by</p>
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:700px ; height:200px">
 
 
