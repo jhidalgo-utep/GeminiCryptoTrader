@@ -6,12 +6,13 @@
     2. Change your current directory to the 'CryptoAppProject/src' folder that contains the "main.py" file
     3. Type "python main.py" in Terminal to run program
     
-<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">
-    
+
 ## Desctription : The Crypto Application [OPEN SOURCE]
 - [x] Windows, OS X and Linux Program
 - [x] Custom Application
 - [ ] Today's breakfast
+- <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">
+    
 
 ## Resources:
 - [x] Python 3.7.9 
