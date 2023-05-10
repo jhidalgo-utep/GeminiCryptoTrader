@@ -17,9 +17,9 @@
     
 
 ## Resources:
-- [x] Python 3.7.9 
-- [x] [Tkinter](http://tkdocs.com/tutorial/install.html) (GUI) - Python's standard GUI [library](https://docs.gemini.com/)
-- [x] [Gemini API](https://docs.python.org/3/library/tk.html) for the Crypto Gemini marketplace website
+-  Python 3.7.9 
+- [Tkinter](http://tkdocs.com/tutorial/install.html) (GUI) - Python's standard GUI [library](https://docs.gemini.com/)
+- [Gemini API](https://docs.python.org/3/library/tk.html) for the Crypto Gemini marketplace website
 
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:150px ; height:150px">
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/ded6633d-01ab-4913-812b-e8a87f8a2cb7" style=" width:150px ; height:150px">
