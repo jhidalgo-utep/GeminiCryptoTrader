@@ -16,7 +16,7 @@
 
 ## Open-Source Code: 
 ### Python3 SDK
-<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:200px ; height:110px">
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:250px ; height:150px">
 
 ### Tkinter (Tk) GUI
 <p float="left">
