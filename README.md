@@ -11,7 +11,8 @@
 - [x] Windows, OS X and Linux Program
 - [x] Custom Application
 - [ ] Today's breakfast
-- <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">
+
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">
     
 
 ## Resources:
