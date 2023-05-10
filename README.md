@@ -9,8 +9,8 @@
 - [x] Crypto Gemini marketplace app that uses the [Gemini API](https://docs.gemini.com/)
 - [x] Windows, OS X and Linux Program
 - [x] Written in the lastest python3
+- [x] Python's integrated [Tkinter GUI](https://docs.python.org/3/library/tk.html)
 - [x] Custom Application
-- [x] Python [Tkinter GUI](https://docs.python.org/3/library/tk.html)
 - [ ] today's breakfast
 
 ## License
