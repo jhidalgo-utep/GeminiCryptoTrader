@@ -16,11 +16,9 @@
 ### Python3
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:500px ; height:200px">
 
-### Tkinter (Tk)
-<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/f0cc6221-13de-4ebb-9bdc-1435b6abdfaa" style=" width:500px ; height:200px">
+### Tkinter (Tk) GUI
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:500px ; height:200px">
 
-
-### Python3
 
 ### Gemini
 
