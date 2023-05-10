@@ -2,7 +2,8 @@
 
 
 ## Start/Run this program
-    # How to start/run application
+    How to start/run application:
+    
     1. Open your Terminal.
     2. Change your current directory to the 'CryptoAppProject/src' folder that contains the "main.py" file
     3. Type "python main.py" in Terminal to run program
