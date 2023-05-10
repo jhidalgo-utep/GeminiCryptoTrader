@@ -10,7 +10,7 @@
 - [x] [Tkinter GUI](https://docs.python.org/3/library/tk.html)
 - [x] Written in the lastest python3
 - [x] Custom Application
-- [ ] today's breakfast & lunch
+- [ ] today's breakfast
 
 ## License
 
