@@ -14,9 +14,7 @@
 - [ ] Today's breakfast
 
 ### Python3
-<img src="[https://camo.githubusercontent.com/...](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/9f93d643-677a-49d9-bd1e-0821ffb1b1ff)" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-
-![py3_logo](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/20995668-cdb3-4104-aab0-54c43e12a718)
+![py3_logo](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/20995668-cdb3-4104-aab0-54c43e12a718 = 250x250)
 
 
 ![Python3](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/9f93d643-677a-49d9-bd1e-0821ffb1b1ff)
