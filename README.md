@@ -7,9 +7,6 @@
     2. Change your current directory to the 'CryptoAppProject/src' folder that contains the "main.py" file
     3. Type "python main.py" in Terminal to run program
     
-# 
-#
-#
     
 ## Desctription : The Crypto Application [OPEN SOURCE]
 - [x] Windows, OS X and Linux Program
