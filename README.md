@@ -36,7 +36,7 @@
 <p> </p>
 
 <p>Invented by</p>
-<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:750px ; height:200px">
+<img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:750px ; height:250px">
 
 
 
