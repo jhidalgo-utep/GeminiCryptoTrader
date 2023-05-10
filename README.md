@@ -24,10 +24,6 @@
 - [x] [Gemini API](https://docs.python.org/3/library/tk.html) for the Crypto Gemini marketplace website
 
 
-
-
-# 
-
 ## Images:
 Gemini API
 <p> </p>
