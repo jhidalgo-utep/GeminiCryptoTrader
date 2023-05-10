@@ -10,7 +10,7 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
-#### Packages:
+#### Resources:
 - [x] Python 3.7.9 
 - [x] Tkinter (GUI) Python package [framework](http://tkdocs.com/tutorial/install.html)
 - [x] Crypto Gemini marketplace that uses the [Gemini API](https://docs.gemini.com/)
