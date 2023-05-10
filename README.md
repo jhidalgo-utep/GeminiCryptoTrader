@@ -7,10 +7,10 @@
     
 ### Desctription : The Crypto Application [OPEN SOURCE]
 - [x] Crypto Gemini marketplace app that uses the [Gemini API](https://docs.gemini.com/)
-- [x] [Tkinter GUI](https://docs.python.org/3/library/tk.html)
 - [x] Windows, OS X and Linux Program
 - [x] Written in the lastest python3
 - [x] Custom Application
+- [x] [Tkinter GUI](https://docs.python.org/3/library/tk.html)
 - [ ] today's breakfast
 
 ## License
