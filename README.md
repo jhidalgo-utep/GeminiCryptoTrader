@@ -10,17 +10,13 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
-This Application is a python program using a GUI for user interaction. It uses python3 and tkinter, a package that is a standard gui library of python.
-
 #### Resources:
 - [x] Python 3.7.9 
 - [x] [Tkinter](http://tkdocs.com/tutorial/install.html) (GUI) - Python's standard GUI [library](https://docs.gemini.com/)
 - [x] [Gemini API](https://docs.python.org/3/library/tk.html) for the Crypto Gemini marketplace website
 
 
-#### Installion:
-- [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
-- [x] Installed Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
+
 
 
 ## Open-Source Code: 
@@ -33,18 +29,16 @@ This Application is a python program using a GUI for user interaction. It uses p
     <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">  
 </p>
 
-
 ### Gemini API
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/3be09dc2-6f74-45bc-b163-b93f179ad909" style=" width:400px ; height:150px">
 
+
+#### Installion:
+- [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
+- [x] Installed Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
+
 ### Made by: JH Dev
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:900px ; height:310px">
-
-#### Installation needed
-+ Downloaded [Python3](https://www.python.org/downloads/)
-+ 
-
-
 
 ## License
     Copyright [2023] [Joaquin Hidalgo]
