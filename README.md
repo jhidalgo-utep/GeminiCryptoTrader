@@ -1,24 +1,28 @@
 # Gemini Crypto Trader App
 
-## How to start program
+## How to start/run program
     1. Open your Terminal.
     2. Change your current directory to the 'CryptoAppProject/src' folder that contains the "main.py" file
     3. Type "python main.py" in Terminal to run program
     
 ### Desctription : The Crypto Application [OPEN SOURCE]
-- [x] Written in [Python3](https://www.python.org/downloads/release/python-379/)
-- [x] Python's integrated [Tkinter GUI](https://docs.python.org/3/library/tk.html)
-- [x] Crypto Gemini marketplace app that uses the [Gemini API](https://docs.gemini.com/)
+- [x] Written in Python 3.7.9 
+- [x] Tkinter (GUI) framework [doc1](https://docs.python.org/3/library/tk.html) [doc2](http://tkdocs.com/tutorial/install.html)
+- [x] Crypto Gemini marketplace that uses the [Gemini API](https://docs.gemini.com/)
 - [x] Windows, OS X and Linux Program
 - [x] Custom Application
 - [ ] Today's breakfast
+
+### Installion:
+- [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
+- [x] Downloaded Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
 
 
 ## Open-Source Code: 
 ### Python3 SDK
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:300px ; height:150px">
 
-### Tkinter (Tk) GUI
+### Python's integrated Tkinter GUI
 <p float="left">
     <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/ded6633d-01ab-4913-812b-e8a87f8a2cb7" style=" width:200px ; height:180px">
     <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:300px ; height:110px">  
