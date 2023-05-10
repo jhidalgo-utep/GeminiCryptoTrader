@@ -1,4 +1,5 @@
 # Gemini Crypto Trader App
+#
 
 ## How to start/run program
     1. Open your Terminal.
@@ -6,6 +7,7 @@
     3. Type "python main.py" in Terminal to run program
     
 # 
+#
     
 ## Desctription : The Crypto Application [OPEN SOURCE]
 - [x] Windows, OS X and Linux Program
@@ -44,8 +46,6 @@ Gemini API
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:300px ; height:150px">
 <p> </p>
 
-
-#
 <p>Invented by</p>
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:700px ; height:200px">
 
