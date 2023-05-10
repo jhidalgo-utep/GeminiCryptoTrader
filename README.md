@@ -28,7 +28,7 @@
 
 ### Made by : 
 
-![JH_dev](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/fd5edbfb-4ac1-4391-880d-61fdc6a30de0)
+![JH_dev](https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/JH_dev.png)
 
 #### Installation needed
 + Downloaded [Python3](https://www.python.org/downloads/)
