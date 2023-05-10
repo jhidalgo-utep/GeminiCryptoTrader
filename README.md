@@ -13,6 +13,23 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
+### Python3
+
+### Tkinter (Tk)
+
+### Python3
+
+### Gemini
+
+### Made by :
+
+
+
+#### Installation needed
++ Downloaded [Python3](https://www.python.org/downloads/)
++ 
+
+
 
 ## License
     Copyright [2023] [Joaquin Hidalgo]
