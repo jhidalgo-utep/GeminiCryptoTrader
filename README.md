@@ -23,7 +23,7 @@
 
 
 
-## Open-Source Code: 
+## Image(s): 
 ### Python3 SDK
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/e2b8fc2d-d398-4291-96f1-05521fcf1120" style=" width:300px ; height:150px">
 
