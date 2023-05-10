@@ -16,6 +16,10 @@
 - [x] Custom Application
 - [ ] Today's breakfast
 
+#
+#
+#
+
 #### Installation:
 - [x] Downloaded [Python3](https://www.python.org/downloads/release/python-379/)
 - [x] Installed Tkinter package into my [Anaconda](https://www.anaconda.com/download) env which I later refrenced to inside my project setting called: Python Interpreter (Python Interpreter/env)
