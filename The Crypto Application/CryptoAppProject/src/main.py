@@ -9,10 +9,9 @@ Created on Tue May  9 19:16:55 2023
 @author: joaquin
 """
 
-from CStartUpFile import StartUp
+from StartUpFile import StartUp
 
 startUp = StartUp()
-
 
 def runner():
     startUp.execute_code()

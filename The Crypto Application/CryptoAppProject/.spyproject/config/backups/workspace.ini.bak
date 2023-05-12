@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['src\\main.py', 'src\\Code\\Launch\\StartUpFile.py', 'src\\Code\\Launch\\Controller.py', 'src\\Code\\Launch\\Model.py', 'src\\Code\\Launch\\View1.py', 'src\\Code\\Launch\\View2.py', 'src\\Code\\Launch\\View3.py']
+recent_files = ['src\\main.py', 'src\\CStartUpFile.py']
 
 [main]
 version = 0.2.0

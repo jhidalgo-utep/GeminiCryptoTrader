@@ -5,7 +5,7 @@ Created on Tue May  9 19:52:47 2023
 @author: joaquin
 """
 
-from BMainWindowFile import MainWindow
+from MainWindowFile import MainWindow
 
 mainWindow = MainWindow()
 
