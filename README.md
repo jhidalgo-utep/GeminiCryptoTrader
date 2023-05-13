@@ -55,7 +55,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
     
-<p>Invented by</p>
+    
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/14c19a92-cf47-44ee-92e8-2f7a2bbd7b64" style=" width:400px ; height:200px">
     
   
