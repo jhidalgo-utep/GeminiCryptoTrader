@@ -5,16 +5,17 @@ Created on Tue May  9 19:52:47 2023
 @author: joaquin
 """
 
-from MainWindowFile import MainWindow
+from MyCustomAppFile import MyCustomApplication
 
-mainWindow = MainWindow()
+my_app = MyCustomApplication()
 
 class StartUp(object):
     def __init__(self):
         self.custom = True
+        
 
     def execute_code(self):
-        mainWindow.start()
+        my_app.start()
         
 
     

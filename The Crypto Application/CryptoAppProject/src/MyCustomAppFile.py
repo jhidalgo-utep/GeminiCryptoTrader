@@ -4,10 +4,46 @@ Created on Wed May 10 16:42:26 2023
 
 @author: joaquin
 """
-
 import tkinter as tk
 
+class PageOne(object):
+    def __init__(self, parent):
+        self.root = tk.Frame(parent) 
+        self.parent = parent
+        print('at page oneee')
+        self.button = tk.Label(self.root, text="Start Developing application here", font=("Arial", 16), fg="red")
+        self.button.pack()
+        self.button =  tk.Button(self.root, text="Go to Two", command=self.go_to_two_clicked )
+        self.button.pack()
+        self.root.pack()
+        
+    def go_to_two_clicked(self):
+        print('go to two clicked clicked')
 
+        self.root.forget() #IF i dont do this, EVEY TIME I CLICK BUTTON, I ADD A LABEL TO THE Current FRAME
+        
+        # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
+        self.page_two = PageTwo(self.parent)
+    
+class PageTwo(object):
+    def __init__(self, parent):
+        self.root = tk.Frame(parent) 
+        self.parent = parent
+        print('at page twooopo')
+        self.button = tk.Label(self.root, text="Start Developing application here", font=("Arial", 16), fg="orange")
+        self.button.pack()
+        self.button =  tk.Button(self.root, text="Go to One", command=self.go_to_one_clicked )
+        self.button.pack()
+        self.root.pack()
+        
+    def go_to_one_clicked(self):
+        print('go to one clicked clicked')
+
+        self.root.forget() #IF i dont do this, EVEY TIME I CLICK BUTTON, I ADD A LABEL TO THE Current FRAME
+        
+        # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
+        self.page_one = PageOne(self.parent)
+        
 
 class NextFrame(object):
     def __init__(self, parent):
@@ -21,8 +57,6 @@ class NextFrame(object):
         #display my tk.frame 'root'
         self.root.pack()
         
-        
-
     def create_all_widgets(self):
         self.next_frame_label_widget()
         self.next_frame_button_widget()
@@ -30,13 +64,19 @@ class NextFrame(object):
     def next_frame_label_widget(self):
         self.button = tk.Label(self.root, text="Start Developing application here", font=("Arial", 16), fg="green")
         self.button.pack()
-        
     
     def next_frame_button_widget(self):
-        self.button =  tk.Button(self.root, text="NEXT", command=None )
+        self.button =  tk.Button(self.root, text="NEXT", command=self.next_clicked )
         self.button.pack()
         
-    
+    def next_clicked(self):
+        print('next clicked')
+
+        self.root.forget() #IF i dont do this, EVEY TIME I CLICK BUTTON, I ADD A LABEL TO THE Current FRAME
+        
+        # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
+        self.page_one = PageOne(self.parent)
+        
 
 
 class MainFrame(object):
@@ -46,11 +86,12 @@ class MainFrame(object):
         self.parent = parent
         print('created main frame - 1 button')
         
-        
         self.create_all_widgets()
         
         #display my tk.frame 'root'
         self.root.pack()
+        
+
         
     def create_all_widgets(self):
         self.welcome_button_widget()
@@ -63,7 +104,6 @@ class MainFrame(object):
         print('Enter Clicked. Go to Next Frame')
         
         
-    
     def segue_frame(self):
         self.root.forget() #IF i dont do this, EVEY TIME I CLICK BUTTON, I ADD A LABEL TO THE Current FRAME
         
@@ -71,6 +111,7 @@ class MainFrame(object):
         self.next_frame = NextFrame(self.parent)
         
         
+
 
 class MyMainWindow(object):
     # Init Controller #8 Obj as 'self.root'
@@ -89,16 +130,14 @@ class MyMainWindow(object):
         return self.is_main_window
 
 
-class MainWindow(object):
+
+class MyCustomApplication(object):
     def __init__ (self):
         self.custom_main = True
         
     def start(self):
-        
-        my_app = MyMainWindow()
-        my_app.start_main_loop()
+        main_window = MyMainWindow()
+        main_window.start_main_loop()
         
         print('GOOD-BYE')
         #END
-        
-        
