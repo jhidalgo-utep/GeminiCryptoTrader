@@ -175,9 +175,18 @@ class NextFrame(object):
 
         self.create_all_widgets()
         
+        self.write_to_file()
+            
+        
         #display my tk.frame 'root'
         self.root.pack()
         # self.root.tkraise()
+        
+    def write_to_file(self):
+        with open('../data/account_name.txt', 'a') as file2:
+            file2.write('entered this line.. \n' )
+            file2.close()
+        
         
     def create_all_widgets(self):
         self.next_frame_label_widget()
