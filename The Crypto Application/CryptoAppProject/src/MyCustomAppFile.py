@@ -10,15 +10,23 @@ from tkinter import Menu
 
 ########################################################################### 
 class MyMenuClass(object):
-    def __init__(self, parent):
+    def __init__(self, parent, curr):
         self.menubar = Menu(parent)
-        parent.config(menu=self.menubar)
-
+        self.parent = parent
+        self.parent.config(menu=self.menubar)
+        self.curr = curr
+        
+        self.test = 101
+        
         ### ADD MENU ITEMS
         # create a file_menu from Menu Tkinter
         self.file_menu = Menu(self.menubar)
+        self.home_menu = Menu(self.menubar)
+        
         # add the File menu to the menubar
         self.menubar.add_cascade(label="File", menu=self.file_menu)
+        # add the Home menu to the menubar
+        self.menubar.add_cascade(label="Home", menu=self.home_menu)
 
 
         ### ADD ITEM DROP-DOWNS
@@ -26,8 +34,43 @@ class MyMenuClass(object):
         self.file_menu.add_command(label='Open', command=None)
         self.file_menu.add_command(label='Save', command=None)
         self.file_menu.add_command(label='Save as', command=None)
-        self.file_menu.add_command(label='Exit', command=parent.destroy)
+        self.file_menu.add_command(label='Exit', command=self.parent.destroy)
+        
+        self.home_menu.add_command(label='Go Home', command=self.func1 )
+        
+        
+    def func1(self):
+        # print(self.root)
+        print('go home... ')
+        # p1 = PageOne(self.curr)
+        # p1.create()
+        home_click_counter = 1
+        self.curr.root.forget()
+        HomePage(self.parent, home_click_counter)
 
+
+
+###########################################################################    
+class PageThree(object):
+    def __init__(self, parent):
+        self.root = tk.Frame(parent) 
+        self.parent = parent
+        print('at page 3tres')
+        self.button = tk.Label(self.root, text="Page Three", font=("Arial", 16), fg="grey")
+        self.button.pack()
+        self.button =  tk.Button(self.root, text="Go to One", command=self.go_to_one_clicked )
+        self.button.pack()
+        
+    def create(self):
+        self.root.pack()
+        # self.root.tkraise()
+        
+    def go_to_one_clicked(self):
+        print('go to one clicked clicked')
+        self.root.forget() 
+        # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
+        p1 = PageOne(self.parent)
+        p1.create()
 
 ###########################################################################    
 class PageTwo(object):
@@ -37,8 +80,10 @@ class PageTwo(object):
         print('at page twooopo')
         self.button = tk.Label(self.root, text="Page Two", font=("Arial", 16), fg="orange")
         self.button.pack()
-        self.button =  tk.Button(self.root, text="Go to One", command=self.go_to_one_clicked )
+        self.button =  tk.Button(self.root, text="Go to Three", command=self.go_to_one_clicked )
         self.button.pack()
+        
+    def create(self):
         self.root.pack()
         # self.root.tkraise()
         
@@ -46,7 +91,8 @@ class PageTwo(object):
         print('go to one clicked clicked')
         self.root.forget() 
         # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
-        PageOne(self.parent)
+        p1 = PageThree(self.parent)
+        p1.create()
 
 
 
@@ -58,15 +104,12 @@ class PageOne(object):
         self.parent = parent
         print('at page oneee')
         
-        
         self.button = tk.Label(self.root, text="Page One", font=("Arial", 16), fg="red")
         self.button.pack()
         self.button =  tk.Button(self.root, text="Go to Two", command=self.go_to_two_clicked )
         self.button.pack()
         
-        # HomePage(self.parent)
-        
-        
+    def create(self):
         self.root.pack()
         # self.root.tkraise()
         
@@ -74,26 +117,49 @@ class PageOne(object):
         print('go to two clicked clicked')
         self.root.forget() 
         # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
-        PageTwo(self.parent)
+        p2 = PageTwo(self.parent)
+        p2.create()
+        
+        
         
   
 ########################################################################
 class HomePage(object):
-    def __init__(self, parent):
+    def __init__(self, parent=None, counter = None):
         self.root = tk.Frame(parent) 
         self.parent = parent
         print('at home page')
         
-        self.label = tk.Label(self.root, text="we are shoing home", font=("Arial", 16), fg="blue")
-        self.label.pack()
+        if counter == None or counter % 2 == 0:
+            self.label = tk.Label(self.root, text="we are shoing home", font=("Arial", 16), fg="blue")
+            self.label.pack()
+        else:
+            self.label = tk.Label(self.root, text="home reloded at least once", font=("Arial", 16), fg="pink")
+            self.label.pack()
         
-        MyMenuClass(self.parent)
+        MyMenuClass(self.parent, self)
         
         # Packing matters, make sure to pack before packing pageone
         self.root.pack()
         # self.root.tkraise()
-        PageOne(self.parent)
         
+        self.frames = {}
+        for F in (PageOne, PageTwo, PageThree):
+            frame = F(self.root)
+            self.frames[F] = frame
+        
+        self.show_frame(PageOne)
+        
+    def show_frame(self, go_to_frame):
+        curr = self.frames[go_to_frame]
+        curr.create()
+        # curr.pack()
+        
+    def create(self):
+        print('create: ')
+        self.forget()
+        self.root.pack()
+
         
         
         
@@ -161,7 +227,6 @@ class MainFrame(object):
     def button_cliked_message(self):
         print('Enter Clicked. Go to Next Frame')
     
-        
     def segue_frame(self):
         self.root.forget() 
         # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
@@ -175,7 +240,6 @@ class MainFrame(object):
 class MyMainWindow(object):
     # Init Controller #8 Obj as 'self.root'
     def __init__(self):
-        
         self.root = tk.Tk() # create main window
         self.root.title('The Crypto Application')
         
@@ -187,7 +251,6 @@ class MyMainWindow(object):
         
     def is_main_window(self):
         return self.is_main_window
-
 
 
 
