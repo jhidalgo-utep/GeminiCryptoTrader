@@ -5,6 +5,29 @@ Created on Wed May 10 16:42:26 2023
 @author: joaquin
 """
 import tkinter as tk
+from tkinter import Menu
+
+
+########################################################################### 
+class MyMenuClass(object):
+    def __init__(self, parent):
+        self.menubar = Menu(parent)
+        parent.config(menu=self.menubar)
+
+        ### ADD MENU ITEMS
+        # create a file_menu from Menu Tkinter
+        self.file_menu = Menu(self.menubar)
+        # add the File menu to the menubar
+        self.menubar.add_cascade(label="File", menu=self.file_menu)
+
+
+        ### ADD ITEM DROP-DOWNS
+        # add a menu item to file_menu
+        self.file_menu.add_command(label='Open', command=None)
+        self.file_menu.add_command(label='Save', command=None)
+        self.file_menu.add_command(label='Save as', command=None)
+        self.file_menu.add_command(label='Exit', command=parent.destroy)
+
 
 ###########################################################################    
 class PageTwo(object):
@@ -17,7 +40,7 @@ class PageTwo(object):
         self.button =  tk.Button(self.root, text="Go to One", command=self.go_to_one_clicked )
         self.button.pack()
         self.root.pack()
-        self.root.tkraise()
+        # self.root.tkraise()
         
     def go_to_one_clicked(self):
         print('go to one clicked clicked')
@@ -28,19 +51,24 @@ class PageTwo(object):
 
 
 
-
 ###########################################################################
 class PageOne(object):
     def __init__(self, parent):
         self.root = tk.Frame(parent) 
         self.parent = parent
         print('at page oneee')
+        
+        
         self.button = tk.Label(self.root, text="Page One", font=("Arial", 16), fg="red")
         self.button.pack()
         self.button =  tk.Button(self.root, text="Go to Two", command=self.go_to_two_clicked )
         self.button.pack()
+        
+        # HomePage(self.parent)
+        
+        
         self.root.pack()
-        self.root.tkraise()
+        # self.root.tkraise()
         
     def go_to_two_clicked(self):
         print('go to two clicked clicked')
@@ -48,11 +76,29 @@ class PageOne(object):
         # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
         PageTwo(self.parent)
         
+  
+########################################################################
+class HomePage(object):
+    def __init__(self, parent):
+        self.root = tk.Frame(parent) 
+        self.parent = parent
+        print('at home page')
+        
+        self.label = tk.Label(self.root, text="we are shoing home", font=("Arial", 16), fg="blue")
+        self.label.pack()
+        
+        MyMenuClass(self.parent)
+        
+        # Packing matters, make sure to pack before packing pageone
+        self.root.pack()
+        # self.root.tkraise()
+        PageOne(self.parent)
+        
+        
+        
+        
         
 
-
-
-        
 ###########################################################################
 class NextFrame(object):
     def __init__(self, parent):
@@ -65,7 +111,7 @@ class NextFrame(object):
         
         #display my tk.frame 'root'
         self.root.pack()
-        self.root.tkraise()
+        # self.root.tkraise()
         
     def create_all_widgets(self):
         self.next_frame_label_widget()
@@ -83,7 +129,9 @@ class NextFrame(object):
         print('next clicked')
         self.root.forget() 
         # 'self.parent' is the MyMainWindow main window parameter (this comes from prior page)
-        PageOne(self.parent)
+        
+        # PageOne(self.parent)
+        HomePage(self.parent)
         
 
 
@@ -100,7 +148,7 @@ class MainFrame(object):
         
         #display my tk.frame 'root'
         self.root.pack()
-        self.root.tkraise()
+        # self.root.tkraise()
         
         
     def create_all_widgets(self):
