@@ -10,6 +10,8 @@ from tkinter import Menu
 
 ############
 # Simplify and refactor
+# 1st identify class relations/imheritance
+# 2nd organize files in mvc struct
 ########################################################################### 
 class MyMenuClass(object):
     def __init__(self, parent, curr):
