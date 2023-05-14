@@ -8,6 +8,8 @@ import tkinter as tk
 from tkinter import Menu
 
 
+############
+# Simplify and refactor
 ########################################################################### 
 class MyMenuClass(object):
     def __init__(self, parent, curr):
