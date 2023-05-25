@@ -13,7 +13,7 @@
 - [x] Windows and OS X program using tkinter
 - [ ] Today's breakfast
 
-tkinter to go\n
+
 <img src="https://github.com/jhidalgo-utep/GeminiCryptoTrader/assets/84790891/922c184e-8017-4ad9-9cb1-81c2375d8c54" style=" width:330px ; height:150px">
     
 
