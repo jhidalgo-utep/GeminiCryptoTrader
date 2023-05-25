@@ -1,4 +1,4 @@
-# Gemini Crypto Trader App
+# Gemini Crypto Trader (GUI)
 
 
 ## How to start/run application:
